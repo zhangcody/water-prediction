@@ -184,7 +184,7 @@ def RMSE(test, predicted):
 
 
 data = pd.read_csv('fuhe.csv')
-data = data.drop(['监测时间'], axis = 1)
+data = data.drop(['time'], axis = 1)
 
 print(data.columns)
 print(data.shape)
